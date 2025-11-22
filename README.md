@@ -21,3 +21,26 @@ This project provides a collection of role-based AI agents designed to support d
 - **Team Coach** - Agile coaching and process improvement
 
 Each persona references shared project context including Product Blueprint, Architecture Document, Team Backlog, Development Log, and User Guide to maintain alignment with the a team's objectives.
+
+## Configuration
+
+### Project-Level Configuration (.amazonq)
+
+The `.amazonq/` directory contains project-specific configurations that apply to all team members working on this project:
+
+- `.amazonq/rules/` - Contains project-level rules and context that are automatically included in every chat and inline chat request
+- `.amazonq/rules/persona.md` - Defines the available AI personas and their behaviors
+- `.amazonq/rules/project-context.md` - Shared project context referenced by all personas
+
+To use the configuration, copy the `.amazonq` folder to the root of your project.
+
+### Global Configuration (~/.aws/amazonq)
+
+The `~/.aws/amazonq/` directory contains user-specific global configurations:
+
+- `~/.aws/amazonq/prompts/` - Personal saved prompts that can be referenced with `@prompt` in chat messages
+- `~/.aws/amazonq/agents/` - Agent configurations for IDE usage
+- `~/.aws/amazonq/cli-agents/` - Agent configurations for CLI usage
+- Global settings that apply across all projects for the individual user
+
+To use the global configuration, copy the `.aws` folder to your `$HOME` directory.
