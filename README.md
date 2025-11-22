@@ -41,6 +41,35 @@ The `~/.aws/amazonq/` directory contains user-specific global configurations:
 - `~/.aws/amazonq/prompts/` - Personal saved prompts that can be referenced with `@prompt` in chat messages
 - `~/.aws/amazonq/agents/` - Agent configurations for IDE usage
 - `~/.aws/amazonq/cli-agents/` - Agent configurations for CLI usage
-- Global settings that apply across all projects for the individual user
+- `~/.aws/amazonq/default.json` - Legacy MCP config files
+
+Global settings that apply across all projects for the individual user
 
 To use the global configuration, copy the `.aws` folder to your `$HOME` directory.
+
+#### 🔍 How Agent Config References Global MCP (`~/.aws/amazonq/default.json`)
+
+- **useLegacyMcpJson** Field
+
+In your agent’s JSON config, there’s a boolean field `useLegacyMcpJson`.
+If you set `useLegacyMcpJson: true`, the agent will automatically include MCP servers from the legacy MCP config files, including:
+
+- `~/.aws/amazonq/mcp.json` (global)
+- `~/.aws/amazonq/default.json` (global)
+Since the IDE now stores MCP config in ~/.aws/amazonq/default.json (which replaced mcp.json), that will be picked up too.
+
+**No Need to Replicate the Server in mcpServers**
+
+Because of `useLegacyMcpJson`, you don’t need to re-declare the same MCP servers in the agent’s mcpServers if they’re already defined in your global MCP config (~/.aws/amazonq/default.json).
+
+If you do declare servers in mcpServers, those are added on top of what’s inherited (unless names conflict).
+
+When to Use mcpServers in Agent Config
+
+Use it when:
+
+- You want agent-specific MCP servers (i.e., only that agent should talk to a particular MCP)
+
+- You need a different configuration (command, URL, args) than what’s in the global default.json
+
+- You want to override or supplement global servers
