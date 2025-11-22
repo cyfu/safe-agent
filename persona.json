@@ -35,7 +35,7 @@
             }
         },
         "resources": [
-            "file://.kiro/agents/shared/project-context.txt"
+            "file://.kiro/agents/shared/project-context.md"
         ],
         "hooks": {},
         "useLegacyMcpJson": false,
@@ -79,7 +79,7 @@
             }
         },
         "resources": [
-            "file://.kiro/agents/shared/project-context.txt"
+            "file://.kiro/agents/shared/project-context.md"
         ],
         "hooks": {},
         "useLegacyMcpJson": false,
@@ -124,7 +124,7 @@
             }
         },
         "resources": [
-            "file://.kiro/agents/shared/project-context.txt"
+            "file://.kiro/agents/shared/project-context.md"
         ],
         "hooks": {},
         "useLegacyMcpJson": false,
@@ -144,7 +144,7 @@
         ],
         "toolsSettings": {},
         "resources": [
-            "file://.kiro/agents/shared/project-context.txt"
+            "file://.kiro/agents/shared/project-context.md"
         ],
         "hooks": {},
         "useLegacyMcpJson": false,
@@ -174,7 +174,7 @@
             }
         },
         "resources": [
-            "file://.kiro/agents/shared/project-context.txt"
+            "file://.kiro/agents/shared/project-context.md"
         ],
         "hooks": {},
         "useLegacyMcpJson": false,
@@ -203,7 +203,7 @@
             }
         },
         "resources": [
-            "file://.kiro/agents/shared/project-context.txt"
+            "file://.kiro/agents/shared/project-context.md"
         ],
         "hooks": {},
         "useLegacyMcpJson": false,
@@ -234,7 +234,7 @@
             }
         },
         "resources": [
-            "file://.kiro/agents/shared/project-context.txt"
+            "file://.kiro/agents/shared/project-context.md"
         ],
         "hooks": {},
         "useLegacyMcpJson": false,
@@ -254,7 +254,7 @@
         ],
         "toolsSettings": {},
         "resources": [
-            "file://.kiro/agents/shared/project-context.txt"
+            "file://.kiro/agents/shared/project-context.md"
         ],
         "hooks": {},
         "useLegacyMcpJson": false,
@@ -282,7 +282,7 @@
             }
         },
         "resources": [
-            "file://.kiro/agents/shared/project-context.txt"
+            "file://.kiro/agents/shared/project-context.md"
         ],
         "hooks": {},
         "useLegacyMcpJson": false,
@@ -302,7 +302,7 @@
         ],
         "toolsSettings": {},
         "resources": [
-            "file://.kiro/agents/shared/project-context.txt"
+            "file://.kiro/agents/shared/project-context.md"
         ],
         "hooks": {},
         "useLegacyMcpJson": false,
@@ -351,7 +351,7 @@
             }
         },
         "resources": [
-            "file://.kiro/agents/shared/project-context.txt"
+            "file://.kiro/agents/shared/project-context.md"
         ],
         "hooks": {},
         "useLegacyMcpJson": false,
