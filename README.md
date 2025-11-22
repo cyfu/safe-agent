@@ -1,4 +1,4 @@
-# Safe Agent
+# SAFe Agent
 
 A SAFe (Scaled Agile Framework) project management system featuring specialized AI agent personas for an agile team.
 
@@ -15,6 +15,7 @@ This project provides a collection of role-based AI agents designed to support d
 - **Software Tester** - QA, testing strategies, and automation
 - **Technical Writer** - Documentation and user guides
 - **Security Master** - Application security and threat modeling
+- **DevOps Engineer** - CI/CD pipelines, infrastructure automation, and deployment
 - **Release Train Engineer (RTE)** - SAFe alignment and flow facilitation
 - **Product Owner** - Backlog management and prioritization
 - **Team Coach** - Agile coaching and process improvement
